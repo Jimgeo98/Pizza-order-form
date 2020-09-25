@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Pizza La Femme">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pizza La Femme</title>
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="icon" href="/icons/favicon.ico" type="image" sizes="16x16">
+    </head>
+    <body>
+        <div class="content">
+                <form name="Order" method="POST" data-netlify="true" class="tagline">
+                    <h1 class="animate__animated animate__bounceInLeft" >Pizza La Femme</h1>
+
+                    <div class="form-group">
+                        <label for="food" >Επιλέξτε Φαγητό :</label>
+                        <select class="form-control" id="food" name="food" required>
+                            <option selected></option>
+                            <option value="Πίτσα κανονική 5€">Πίτσα κανονική 5€</option>
+                            <option value="Πίτσα γίγας 7€">Πίτσα γίγας 7€</option>
+                            <option value="Καλτσόνε 3€">Καλτσόνε 3€</option>
+                            <option value="Μακαρονάδα με κιμά 4€">Μακαρονάδα με κιμά 4€</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ingredients" >Γράψτε μας τα υλικά που θέλετε :</label>
+                        <textarea class="form-control" id="ingredients" name="ingredients" required placeholder="πχ απ'ολα χωρις πιπεριά"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="value" >Επιλέξτε Ποσότητα :</label>
+                        <input type="number" class="form-control" name="value" id="value" required placeholder="πχ 3"></input>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city" >Περιοχή :</label>
+                        <input type="text" class="form-control" name="city" id="city" required placeholder="πχ Καλαμαρία"></input>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name" >Όνομα :</label>
+                        <input type="text" class="form-control" id="name" name="name" required placeholder="Όνομα"></input>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address" >Διεύθυνση και αριθμός :</label>
+                        <input type="text" class="form-control" id="address" name="address" required placeholder="πχ παπάγου 34"></input>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-outline-success"><i class="fas fa-shopping-basket"></i>Παραγγελία</button>
+                    </div>
+
+                </form>
+                
+        </div>
+
+        <footer>
+            <div class="fo">
+
+                <div class="sname">
+                    <span id="N">Pizza Le Femme</span>
+                </div>
+
+                <div class="phone">
+                    <p><span>Τηλέφωνο</span> : 2310 738295</p>
+                </div>
+
+                <div class="address">
+                    <p><span>Διεύθυνση</span>: Μάρκου Μπότσαρη 34 Καλαμαρία </p>
+                </div>
+
+            </div>
+        </footer>
+
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="/scripts/app.js" async defer></script>
+    </body>
+
+</html>

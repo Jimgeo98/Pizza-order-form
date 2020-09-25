@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Cousine', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 120%;
+    background-color: rgb(20, 20, 20);
+}
+
+
+form h1{
+    margin-bottom: 120px;
+    margin-top: 50px;
+    color: rgb(185, 36, 36);
+    text-shadow: 5px 5px 10px #1025e2;
+    box-shadow: 20px 15px #548829;
+    cursor: pointer;
+}
+.content{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('/icons/pizza.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+form{
+    color:  white;
+    width: 50rem;
+}
+
+
+form .form-control{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.form-group .btn-outline-success{
+    margin-top: 10px;
+    margin-left: 35%;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 25px;
+    width: 250px;
+    
+}
+
+
+.form-group{
+    margin-top: 50px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+label{
+    color: rgb(204, 60, 60);
+    cursor: pointer;
+}
+
+footer{
+    background-color:rgb(20, 20, 20);
+    height: 80px;
+    color: white;
+    border-top: 3px solid red;
+}
+
+footer .fo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .fo .sname{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+footer .fo .address{
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+footer .fo .phone{
+    margin-top: 20px;
+}
+
+footer .fo .sname span,
+footer .fo .address span,
+footer .fo .phone span{
+    color: rgb(39, 195, 39);
+
+}
+
+footer .fo .sname #N {
+    font-size: 20px;
+}
+
+
+
+
+
