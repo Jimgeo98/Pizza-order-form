@@ -15,7 +15,7 @@ form h1{
     margin-bottom: 120px;
     margin-top: 50px;
     color: rgb(185, 36, 36);
-    text-shadow: 5px 5px 10px #1025e2;
+    text-shadow: 5px 5px 15px #02e1ff;
     box-shadow: 20px 15px #548829;
     cursor: pointer;
 }
@@ -95,16 +95,160 @@ footer .fo .phone{
     margin-top: 20px;
 }
 
-footer .fo .sname span,
+
 footer .fo .address span,
 footer .fo .phone span{
     color: rgb(39, 195, 39);
 
 }
 
-footer .fo .sname #N {
+footer .fo .sname span {
     font-size: 20px;
+    color: rgb(60, 255, 0);
 }
+
+
+
+
+
+@media screen and (max-width: 770px) {
+
+    html, body{
+        height: 120%;
+    }
+
+    form h1{
+        width: 550px;
+        margin-left: 110px;
+    }
+
+    form .form-group{
+        width: 600px;
+        margin-left: 80px;
+    }
+
+
+    .form-group .btn-outline-success{
+
+        width: 280px;
+        height: 80px;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    footer .fo .phone{
+        margin-right: 100px;
+    }
+
+    footer .fo .address{
+        margin-left: 180px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 415px) {
+
+    html, body{
+        height: 160%;
+    }
+
+    form h1{
+        width: 270px;
+        margin-left: 50px;
+    }
+
+    form .form-group{
+        width: 320px;
+        margin-left: 40px;
+    }
+
+    footer .fo .phone,
+    footer .fo .address {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .form-group .btn-outline-success{
+
+        width: 150px;
+        height: 80px;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 376px) {
+
+    html, body{
+        height: 170%;
+    }
+
+    form h1{
+        width: 250px;
+        margin-left: 40px;
+    }
+
+    form .form-group{
+        width: 270px;
+        margin-left: 40px;
+    }
+
+
+    .form-group .btn-outline-success{
+        width: 150px;
+        height: 80px;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    footer .fo .phone,
+    footer .fo .address {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+}
+
+
+@media screen and (max-width: 365px) {
+
+    html, body{
+        height: 180%;
+    }
+
+}
+
+
+@media screen and (max-width: 325px) {
+
+    html, body{
+        height: 210%;
+    }
+
+    form h1{
+        width: 200px;
+        margin-left: 50px;
+    }
+    
+
+    form .form-group{
+        width: 220px;
+    }
+
+    .form-group .btn-outline-success{
+        width: 120px;
+        height: 80px;
+        font-size: 16px;
+    }
+
+}
+
+
+
 
 
 
